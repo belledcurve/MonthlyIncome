@@ -53,31 +53,6 @@ SaveIncome <- function() {
 AddMonth <- function(month, work) {
   new <- c(month, work, 0)
   income.raw <<- rbind(income.raw, new)
-  return(
-    income.raw
-  )
+  return(income.raw)
 }
-
-
-library(tidyverse)
-
-== testings ==
-function.income <- income.raw
-function.income
-
-income.raw$hours[1]
-income.raw$hours[1] = income.raw$hours[1] + 6
-income.raw$hours[1]
-
-
-identical(4, income.raw$month[1]) & identical(".hagwon", income.raw$category[1])
-
-
-x <- matrix(c(1:12),4,3)
-x
-x[3,1] <- 6
-
-
-?write_csv
-write_csv(income.raw, "income.csv")
 
