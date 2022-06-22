@@ -3,7 +3,7 @@ a R code to keep track of my monthly income
 
 after using AddWork() to add work and SaveIncome() to overwrite the existing .csv file with the new value, 
 
-<img width="583" alt="image" src="https://user-images.githubusercontent.com/92968898/175097589-d02b106e-8709-4326-b2bf-1655e28ed3b4.png">
+<img width="300" alt="image" src="https://user-images.githubusercontent.com/92968898/175097589-d02b106e-8709-4326-b2bf-1655e28ed3b4.png">
 
 the .csv file will be imported to an Excel file, where we can use the =sheet!A# function to call in the R-calculated values into Excel.
 
