@@ -74,9 +74,8 @@ SaveIncome <- function() {
   return(income.raw)
 }
 
-#this function does not work. needs maintenance. 
 AddMonth <- function(month, work) {
-  new <- c(month, work, 0)
+  new <- c(month, work, NA, NA, NA, NA, NA)
   income.raw <<- rbind(income.raw, new)
   return(
     income.raw
