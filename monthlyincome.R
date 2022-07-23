@@ -70,7 +70,7 @@ reset <- function() {
 }
 
 SaveIncome <- function() {
-  write_csv(income.raw, "income.csv")
+  write.csv(income.raw, "income.csv")
   return(income.raw)
 }
 
